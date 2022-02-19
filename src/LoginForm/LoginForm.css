@@ -1,0 +1,40 @@
+input[type="password"],
+input[type="email"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.labelText {
+    display: flex;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    width: 130px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: silver;
+    color: black;
+}
+
+.error {
+    color: red;
+    display: flex;
+    margin: 10px;
+}
